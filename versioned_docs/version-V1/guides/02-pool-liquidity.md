@@ -76,7 +76,7 @@ Liquidity is withdrawn at the same ratio as the reserves at the time of withdraw
 
 ### Parameters
 
-`amount` specifies the number of liquidity tokens that will be burned. Dividing this amount by the total liquidity token supply gives the percentage of both the ETH and ER20 reserves the provider is withdrawing.
+`amount` specifies the number of liquidity tokens that will be burned. Dividing this amount by the total liquidity token supply gives the percentage of both the ETH and ERC20 reserves the provider is withdrawing.
 
 Since exchange rate can change between when a transaction is signed and when it is executed on Ethereum, `min_eth` and `min_tokens` are used to bound the amount this rate can fluctuate.
 
