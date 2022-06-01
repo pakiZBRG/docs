@@ -41,7 +41,7 @@ ETH defaults as the input currency. When a different token is selected for eithe
 
 ### Constraints
 
-Addresses must be valid ERC20 addresses. Slippage and amount values must be valid numbers accepted by the exchange \(or error will prevent from swapping\). Slippage can 0, or within the range 10-&gt;9999 bips \(which converts to 0%, 0.01%-&gt;99%\)
+Addresses must be valid ERC20 addresses. Slippage and amount values must be valid numbers accepted by the exchange \(or error will prevent from swapping\). Slippage can be 0, or within the range 10-&gt;9999 bips \(which converts to 0%, 0.01%-&gt;99%\)
 
 When selecting ETH as the output currency a user must also choose an inputCurrency that is not ETH \(to prevent ETH being populated in both fields\)
 
